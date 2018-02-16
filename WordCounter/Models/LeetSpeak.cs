@@ -23,9 +23,9 @@ namespace WordCounter.Models
 
       int count = 0;
 
-      foreach (string currentWord in userPhrase)
+      foreach (string newPhrase in userPhrase)
       {
-        if (currentWord == word.ToLower())
+        if (newPhrase == word.ToLower())
         {
           count++;
         }

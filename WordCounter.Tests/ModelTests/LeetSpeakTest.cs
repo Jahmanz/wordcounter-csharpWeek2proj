@@ -36,6 +36,35 @@ namespace WordCounter.Tests
 
 
         Assert.AreEqual(1, expectedOutput);
-    }
+      }
+
+        [TestMethod]
+        public void CountWord_ReturnWordCountMulipleWords_2()
+        {
+
+          string inputPhrase = "jahmanz is jahmanz";
+          string inputWord = "jahmanz";
+          RepeatCounter testInputPhrase = new RepeatCounter(inputPhrase, inputWord);
+
+
+          int expectedOutput = RepeatCounter.CountWord(inputPhrase, inputWord);
+
+
+          Assert.AreEqual(2, expectedOutput);
+        }
+        [TestMethod]
+        public void CountWord_ReturnWordCountMulipleWordsWithPunctuation_2()
+        {
+
+          string inputPhrase = "jahmanz is jahmanz!";
+          string inputWord = "jahmanz";
+          RepeatCounter testInputPhrase = new RepeatCounter(inputPhrase, inputWord);
+
+
+          int expectedOutput = RepeatCounter.CountWord(inputPhrase, inputWord);
+
+
+          Assert.AreEqual(2, expectedOutput);
+        }
   }
 }
