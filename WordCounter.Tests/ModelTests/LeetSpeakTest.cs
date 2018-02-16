@@ -1,20 +1,27 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounterApp.Models;
+using WordCounter.Models;
 
-namespace WordCounterApp.Tests
+namespace WordCounter.Tests
 {
   [TestClass]
-  public class WordCounterTest
+  public class RepeatCounterTest
   {
+
     [TestMethod]
-    public void GetPhrase_ReturnWord_String()
+    public void CountRepeatedWord_ReturnOneLetter_One()
     {
-      string TestPhrase =  "1";
-      string preConvertedPhrase = "A";
-      string ConvertedPhrase = WordCounter.WordTranslate(preConvertedPhrase);
-      Assert.AreEqual(TestPhrase, ConvertedPhrase);
+
+      string inputtedPhrase = "a";
+      string inputtedWord = "a";
+      RepeatCounter testInputtedPhrase = new RepeatCounter(inputtedPhrase, inputtedWord);
+
+
+      int expectedOutput = RepeatCounter.CountRepeatedWord(inputtedPhrase, inputtedWord);
+
+
+      Assert.AreEqual(1, expectedOutput);
     }
   }
 }

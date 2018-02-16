@@ -1,14 +1,36 @@
 using System;
 using System.Collections.Generic;
 
-namespace WordCounterApp.Models
+namespace WordCounter.Models
 {
-  public class WordCounter
+
+  public class RepeatCounter
   {
-    public static string WordTranslate(string inputPhrase)
+    private string _sentence;
+    private string _word;
+    private int _count;
+
+    public RepeatCounter (string sentence, string word, int count = 0)
     {
-      string translatedPhrase = inputPhrase.Replace("A", "1");
-      return translatedPhrase;
+      _sentence = sentence;
+      _word = word;
+      _count = count;
+    }
+
+    public static int CountRepeatedWord(string sentence, string word)
+    {
+      string [] userPhrase = sentence.ToLower().Split(new Char [] {' ','.', ',','!','?',});
+
+      int count = 0;
+
+      foreach (string currentWord in userPhrase)
+      {
+        if (currentWord == word.ToLower())
+        {
+          count++;
+        }
+      }
+      return count;
     }
   }
 }
