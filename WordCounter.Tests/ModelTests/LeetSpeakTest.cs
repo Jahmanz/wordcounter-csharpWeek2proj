@@ -10,7 +10,7 @@ namespace WordCounter.Tests
   {
 
     [TestMethod]
-    public void CountWord_ReturnOneLetter_One()
+    public void CountWord_ReturnOneLetter_1()
     {
 
       string inputPhrase = "a";
@@ -24,7 +24,7 @@ namespace WordCounter.Tests
       Assert.AreEqual(1, expectedOutput);
     }
       [TestMethod]
-      public void CountWord_ReturnWordCount_One()
+      public void CountWord_ReturnWordCount_1()
       {
 
         string inputPhrase = "jahmanz";
@@ -65,6 +65,21 @@ namespace WordCounter.Tests
 
 
           Assert.AreEqual(2, expectedOutput);
+        }
+
+        [TestMethod]
+        public void CountWord_ReturnWordCountCompletePhrase_3()
+        {
+
+          string inputPhrase = "In the beggining, the man, and the dog were friends.";
+          string inputWord = "the";
+          RepeatCounter testInputPhrase = new RepeatCounter(inputPhrase, inputWord);
+
+
+          int expectedOutput = RepeatCounter.CountWord(inputPhrase, inputWord);
+
+
+          Assert.AreEqual(3, expectedOutput);
         }
   }
 }
