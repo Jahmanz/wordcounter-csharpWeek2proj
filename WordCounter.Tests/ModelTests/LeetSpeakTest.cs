@@ -10,18 +10,32 @@ namespace WordCounter.Tests
   {
 
     [TestMethod]
-    public void CountRepeatedWord_ReturnOneLetter_One()
+    public void CountWord_ReturnOneLetter_One()
     {
 
-      string inputtedPhrase = "a";
-      string inputtedWord = "a";
-      RepeatCounter testInputtedPhrase = new RepeatCounter(inputtedPhrase, inputtedWord);
+      string inputPhrase = "a";
+      string inputWord = "a";
+      RepeatCounter testInputPhrase = new RepeatCounter(inputPhrase, inputWord);
 
 
-      int expectedOutput = RepeatCounter.CountRepeatedWord(inputtedPhrase, inputtedWord);
+      int expectedOutput = RepeatCounter.CountWord(inputPhrase, inputWord);
 
 
       Assert.AreEqual(1, expectedOutput);
+    }
+      [TestMethod]
+      public void CountWord_ReturnWordCount_One()
+      {
+
+        string inputPhrase = "jahmanz";
+        string inputWord = "jahmanz";
+        RepeatCounter testInputPhrase = new RepeatCounter(inputPhrase, inputWord);
+
+
+        int expectedOutput = RepeatCounter.CountWord(inputPhrase, inputWord);
+
+
+        Assert.AreEqual(1, expectedOutput);
     }
   }
 }

@@ -17,7 +17,7 @@ namespace WordCounter.Models
       _count = count;
     }
 
-    public static int CountRepeatedWord(string sentence, string word)
+    public static int CountWord(string sentence, string word)
     {
       string [] userPhrase = sentence.ToLower().Split(new Char [] {' ','.', ',','!','?',});
 
