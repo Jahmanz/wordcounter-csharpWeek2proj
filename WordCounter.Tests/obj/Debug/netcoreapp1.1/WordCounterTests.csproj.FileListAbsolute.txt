@@ -1,0 +1,14 @@
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounterTests.deps.json
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounterTests.runtimeconfig.json
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounterTests.runtimeconfig.dev.json
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounterTests.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounterTests.pdb
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\obj\Debug\netcoreapp1.1\WordCounterTests.csproj.CoreCompileInputs.cache
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\obj\Debug\netcoreapp1.1\WordCounterTests.AssemblyInfo.cs
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\obj\Debug\netcoreapp1.1\WordCounterTests.dll
+C:\Users\raide\Desktop\leetspeak\wordcounter.tests\obj\Debug\netcoreapp1.1\WordCounterTests.pdb
