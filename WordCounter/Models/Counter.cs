@@ -32,21 +32,21 @@ namespace WordCounter.Models
       }
       return count;
     }
-    public string GetSentence
+    public string GetSentence()
     {
-      return _sentence
+      return _sentence;
     }
     public void SetSentence(string newSentence)
     {
-      _sentence = newSentence
+      _sentence = newSentence;
     }
-    public string GetWord
+    public string GetWord()
     {
-      return _word
+      return _word;
     }
     public void SetWord(string newWord)
     {
-      _word = newWord
+      _word = newWord;
     }
   }
 }
