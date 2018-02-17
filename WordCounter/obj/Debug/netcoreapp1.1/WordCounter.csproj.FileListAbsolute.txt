@@ -1,7 +1,3 @@
-C:\Users\raide\Desktop\leetspeak\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
-C:\Users\raide\Desktop\leetspeak\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.dll
-C:\Users\raide\Desktop\leetspeak\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
-C:\Users\raide\Desktop\leetspeak\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csproj.CoreCompileInputs.cache
-C:\Users\raide\Desktop\leetspeak\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
-C:\Users\raide\Desktop\leetspeak\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
-C:\Users\raide\Desktop\leetspeak\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\raide\Desktop\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
+C:\Users\raide\Desktop\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\raide\Desktop\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs

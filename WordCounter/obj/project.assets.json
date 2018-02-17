@@ -9523,11 +9523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raide\\Desktop\\leetspeak\\wordcounter\\WordCounter.csproj",
+      "projectUniqueName": "C:\\Users\\raide\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "projectName": "WordCounter",
-      "projectPath": "C:\\Users\\raide\\Desktop\\leetspeak\\wordcounter\\WordCounter.csproj",
+      "projectPath": "C:\\Users\\raide\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "packagesPath": "C:\\Users\\raide\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raide\\Desktop\\leetspeak\\wordcounter\\obj\\",
+      "outputPath": "C:\\Users\\raide\\Desktop\\WordCounter\\WordCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raide\\AppData\\Roaming\\NuGet\\NuGet.Config"
