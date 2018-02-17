@@ -34,7 +34,7 @@ namespace WordCounterApp
             });
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("If you're seeing this, Drew isn't a very good programmer.");
+                await context.Response.WriteAsync("One Love!.");
             });
         }
     }
