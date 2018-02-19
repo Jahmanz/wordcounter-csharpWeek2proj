@@ -24,9 +24,9 @@ namespace WordCounter.Tests
         }
         [TestMethod]
 
-        public void CountWord_ReturnWordsInSentence_1()
+        public void CountWord_ReturnWordsInSentence_2()
         {
-        RepeatCounter testRepeatCounter = new RepeatCounter("jahmanz is jahmanz, jahmanz");
+        RepeatCounter testRepeatCounter = new RepeatCounter("jahmanz", "jahmanz is jahmanz");
         int countWords = testRepeatCounter.CountWords();
         Assert.AreEqual(2, countWords);
         }
