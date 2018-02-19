@@ -9,11 +9,27 @@ namespace WordCounter.Tests
     public class RepeatCounterTest
     {
         [TestMethod]
-        public void WordCounter_CountSingleLetterWords_1()
+        public void CountWord_ReturnOneLetter_1()
         {
         RepeatCounter testRepeatCounter = new RepeatCounter("a", "a");
         int countWords = testRepeatCounter.CountWords();
         Assert.AreEqual(1, countWords);
         }
+        [TestMethod]
+        public void CountWord_ReturnOneWord_1()
+        {
+        RepeatCounter testRepeatCounter = new RepeatCounter("jahmanz", "jahmanz");
+        int countWords = testRepeatCounter.CountWords();
+        Assert.AreEqual(1, countWords);
+        }
+        [TestMethod]
+
+        public void CountWord_ReturnWordsInSentence_1()
+        {
+        RepeatCounter testRepeatCounter = new RepeatCounter("jahmanz is jahmanz, jahmanz");
+        int countWords = testRepeatCounter.CountWords();
+        Assert.AreEqual(2, countWords);
+        }
+
     }
 }
