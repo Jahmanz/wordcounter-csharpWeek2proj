@@ -26,7 +26,6 @@ namespace WordCounterApp
         public void Configure(IApplicationBuilder app)
         {
           app.UserDeveloperExceptionPage();
-          app.UseDeveloperExceptionPage();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
