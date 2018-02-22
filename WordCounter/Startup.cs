@@ -24,8 +24,13 @@ namespace WordCounter
         }
 
         public void Configure(IApplicationBuilder app)
+<<<<<<< HEAD
           {
             app.UseDeveloperExceptionPage();
+=======
+        {
+          app.UserDeveloperExceptionPage();
+>>>>>>> 60972039a99c1d7d590da6871464a7acd8f09534
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -34,7 +39,11 @@ namespace WordCounter
             });
             app.Run(async (context) =>
             {
+<<<<<<< HEAD
                 await context.Response.WriteAsync("ONE LOVE!");
+=======
+                await context.Response.WriteAsync("One Love!.");
+>>>>>>> 60972039a99c1d7d590da6871464a7acd8f09534
             });
         }
     }
