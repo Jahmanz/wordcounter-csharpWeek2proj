@@ -1,37 +1,35 @@
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 
 namespace WordCounter.Models
 {
-    public class RepeatCounter
+
+  public class RepeatCounter
+  {
+    private string _sentence;
+    private string _word;
+    private int _counter;
+
+    public RepeatCounter (string sentence, string word, int counter = 0)
     {
-        private string _word;
-        private string _sentence;
-
-
-        public RepeatCounter (string word, string sentence)
-        {
-            _word = word;
-            _sentence = sentence;
-        }
-
-        public int CountWords()
-        {
-            int count = 0;
-            string sentence = _sentence.ToLower();
-            string word = _word.ToLower();
-
-            string [] inputSentence = sentence.Split();
-
-            for (int index = 0; index < inputSentence.Length; index++)
-            {
-                if(inputSentence[index] == word)
-                {
-                    count +=1;
-                }
-            }
-            return count;
-        }
-
+      _sentence = sentence;
+      _word = word;
+      _counter = counter;
     }
+
+    public static int CountWords(string sentence, string word)
+    {
+    string [] inputSentence = sentence.ToLower().Split(new Char [] {' ','.', ',','!','?',});
+      int counter = 0;
+
+      foreach (string inputword in inputSentence)
+      {
+        if (inputword == word.ToLower())
+        {
+          counter++;
+        }
+      }
+      return counter;
+    }
+  }
 }
